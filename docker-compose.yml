@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+
+    sonarqube:
+        image: perarneng/sonarqube:6.2
+        ports:
+            - "9000:9000"
+            - "9092:9092"
+        volumes:
+            - "..:/currentdir"
