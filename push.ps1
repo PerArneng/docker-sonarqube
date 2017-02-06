@@ -1,1 +1,1 @@
-docker build perarneng/sonarqube:6.2
+docker push perarneng/sonarqube:6.2
