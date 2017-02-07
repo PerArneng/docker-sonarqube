@@ -8,7 +8,7 @@ run the scanner within the container.
 
 *Starting the docker image:*
 ```
-$ docker run -ti -name sonarqube -p 9000:9000 -p 9092:9092 -v .:/currentdir sonarqube
+$ docker run -ti --name sonarqube -p 9000:9000 -p 9092:9092 -v .:/currentdir perarneng/sonarqube:6.2
 ```
 *Executing the sonar-scanner:*
 ```
